@@ -16,6 +16,8 @@
 		5220F7341E23685000072515 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5220F7321E23685000072515 /* LaunchScreen.storyboard */; };
 		5220F73F1E23685100072515 /* DelegateContactDetailsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5220F73E1E23685100072515 /* DelegateContactDetailsTests.m */; };
 		5220F74A1E23685100072515 /* DelegateContactDetailsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5220F7491E23685100072515 /* DelegateContactDetailsUITests.m */; };
+		5220F7591E23748D00072515 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 5220F7581E23748D00072515 /* ViewController2.m */; };
+		5220F75C1E23767600072515 /* ContactInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5220F75B1E23767600072515 /* ContactInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		5220F7451E23685100072515 /* DelegateContactDetailsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DelegateContactDetailsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5220F7491E23685100072515 /* DelegateContactDetailsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DelegateContactDetailsUITests.m; sourceTree = "<group>"; };
 		5220F74B1E23685100072515 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5220F7571E23748D00072515 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		5220F7581E23748D00072515 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		5220F75A1E23767600072515 /* ContactInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactInfo.h; sourceTree = "<group>"; };
+		5220F75B1E23767600072515 /* ContactInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactInfo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,8 +111,12 @@
 			children = (
 				5220F7241E23684F00072515 /* AppDelegate.h */,
 				5220F7251E23684F00072515 /* AppDelegate.m */,
+				5220F75A1E23767600072515 /* ContactInfo.h */,
+				5220F75B1E23767600072515 /* ContactInfo.m */,
 				5220F7271E23684F00072515 /* ViewController.h */,
 				5220F7281E23684F00072515 /* ViewController.m */,
+				5220F7571E23748D00072515 /* ViewController2.h */,
+				5220F7581E23748D00072515 /* ViewController2.m */,
 				5220F72A1E23684F00072515 /* Main.storyboard */,
 				5220F7301E23685000072515 /* Assets.xcassets */,
 				5220F7321E23685000072515 /* LaunchScreen.storyboard */,
@@ -276,8 +286,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5220F75C1E23767600072515 /* ContactInfo.m in Sources */,
 				5220F72F1E23685000072515 /* DelegateContactDetails.xcdatamodeld in Sources */,
 				5220F7291E23684F00072515 /* ViewController.m in Sources */,
+				5220F7591E23748D00072515 /* ViewController2.m in Sources */,
 				5220F7261E23684F00072515 /* AppDelegate.m in Sources */,
 				5220F7231E23684F00072515 /* main.m in Sources */,
 			);
